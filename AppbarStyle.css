@@ -1,0 +1,119 @@
+.appbar {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color:#f7dbe3;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 20px;
+  }
+  
+  .appbar__logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .appbar__cart {
+    width: 74px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    height: 45px;
+  }
+  
+  .appbar__cart:hover {
+    opacity: 0.75;
+  }
+  
+  .cart__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .cart__image {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .cart__counter {
+    height: 34px;
+    width: 34px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    color: #fff;
+    background: #e61515;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    margin-top: -29px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .appbar__container{
+    /* width: 180px; */
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    height: 45px;
+
+  }
+  .appbar_logo{
+    width: 43px;
+    height: 46px;
+    /* object-fit: contain; */
+    margin-top: auto;
+  }
+  .search_button{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    color: black;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+  }
+  .search_div{
+    /* margin-left: auto; */
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 38%;
+    border-width: 0.3px;
+    border: solid black;
+  }
+  .search_logo{
+    /* justify-content: flex-end; */
+    border: 1px solid #fff;
+    background-color: rgb(177, 168, 168);
+    height: 36px;
+    width: 75px;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 5px 18px 5px 4px;
+    text-align: center;
+  }
+  .account_info{
+    height: 142px;
+    background-color: aliceblue;
+    width: 155px;
+    float: right;
+    margin-right: 1px;
+    text-align: center;
+
+  }
